@@ -18,13 +18,14 @@ body{
 }
 .container{
     background-image: linear-gradient(to right , #01022de5 30%, #0000001f),
-    url(/img/bg.webp);
+    url(/website/img/bg.webp);
+    background-position: center;
     height: 640px;
     width: 70%;
 }
 .container:hover{
     background-image: linear-gradient(to right , #01022de5 20%, transparent),
-    url(/img/bg.webp);
+    url(/website/img/bg.webp);
 }
 header{
    display: flex;
@@ -49,4 +50,32 @@ ul a{
 }
 ul a:hover{
     border-bottom-color: white;
+}
+.content{
+    color: white;
+    width: 90%;
+    margin-top: 0px;
+    padding: 10px;
+}
+.content h2{
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.content p{
+    width: 350px;
+    padding-top: px;
+    letter-spacing: 3px;
+
+}
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color:transparent ;
+    border-color: white;
+    color: white;
 }
